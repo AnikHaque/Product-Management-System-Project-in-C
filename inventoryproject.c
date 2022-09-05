@@ -1,5 +1,4 @@
-//Sadia Tasnim Prema
-//Id: 221-35-1073
+
 #include<stdio.h>
 #include<string.h>//strlen
 #include <stdlib.h>
