@@ -1,3 +1,5 @@
+//Sadia Tasnim Prema
+//Id: 221-35-1073
 #include<stdio.h>
 #include<string.h>//strlen
 #include <stdlib.h>
@@ -78,7 +80,6 @@ void disZeroQuant(){ // for the switch number 7= calling all the product id with
 writefile();
 
 }
-
 void dispHsale(){ // to display the highest sale function
 	int high,i;
 	 high=prod[0].numSold; // getting the first element of the array that has been sold
@@ -325,9 +326,9 @@ int main (){
 		printf("Cannot locate file\n");
 do {
 	printf("\n");
-	printf("\t\t\t  ================================\n");
-	printf("\t\t\t     PRODUCT INVENTORY PROGRAM\n");
-	printf("\t\t\t  ================================");
+	printf("\t\t\t  ========================================================\n");
+	printf("\t\t\t          PRODUCT INVENTORY MANAGEMENT PROJECT\n");
+	printf("\t\t\t  ========================================================");
 
 	printf("\n\nPress:");
 	printf("\n 1.) Input new product record.");
@@ -338,7 +339,7 @@ do {
 	printf("\n 6.) Display the product record with highest sale.");
 	printf("\n 7.) Display all product with zero quantity");
 	printf("\n 8.) Exit the program.");
-	printf("\nChoice--> ");
+	printf("\n Choice Any Of One:--> ");
 	scanf("%d", &choice);
 	     switch(choice){
         case 1 :  //add product
