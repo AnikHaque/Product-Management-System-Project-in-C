@@ -65,19 +65,7 @@ int readFile() // read file function
     return n;
 }
 
-void disZeroQuant(){ // for the switch number 7= calling all the product id with zero quantity.
-		int i;
 
-       count= readFile();	// call the read function
-         printf("\nProducts with zero Quantity: ");
-        for (i=0; i<count; i++){
-		if(prod[i].quantity==0){// printing the highest product.
-    printf("\nName of the product: %s \nProduct Id: %s \nQuantity left: %d \nNumber of product sold: %d \nPrice of the product: %.2f \nDiscount of the product: %d %% \nTotal Sales: %.2lf\n",prod[i].name,prod[i].id,prod[i].quantity,prod[i].numSold,prod[i].price,prod[i].discount,prod[i].sales);
-		}
-     }
-writefile();
-
-}
 void dispHsale(){ // to display the highest sale function
 	int high,i;
 	 high=prod[0].numSold; // getting the first element of the array that has been sold
