@@ -26,7 +26,7 @@ struct product
         return -1;
     fprintf(f, "%d\n", count);
     for (i = 0; i < count; ++i) // writing all the details from all the function to the text file.
-    {
+     {
         // Changed
         fputs(prod[i].id, f);
         fprintf(f, "\n");
